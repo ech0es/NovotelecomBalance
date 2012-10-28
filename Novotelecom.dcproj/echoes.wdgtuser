@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Breakpoints</key>
+	<dict>
+		<key>widget.wdgt/main.js:102</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:105</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:107</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:108</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:132</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:133</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:134</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:135</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:136</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:137</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:138</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:139</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:142</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:145</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:158</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:159</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:160</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:161</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:162</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:163</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:164</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:165</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:166</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:169</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:170</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:171</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:172</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:173</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:183</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:190</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:203</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:207</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:213</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:214</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:217</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:218</key>
+		<string>-</string>
+		<key>widget.wdgt/main.js:219</key>
+		<string>-</string>
+		<key>widget.wdgt/main.js:222</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:223</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:224</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:225</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:230</key>
+		<string>-showBack</string>
+		<key>widget.wdgt/main.js:247</key>
+		<string>-showFront</string>
+		<key>widget.wdgt/main.js:89</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:92</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:93</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:94</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:95</key>
+		<string>-DashboardViewModel</string>
+	</dict>
+	<key>CYLastWindowPosition</key>
+	<string>{1095, 478}</string>
+	<key>ContentSplitViewGeometry</key>
+	<dict>
+		<key>ContentSplitViewConfig</key>
+		<integer>8</integer>
+		<key>SplitViewConfig</key>
+		<integer>3</integer>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {1687, 396}}</string>
+			<string>{{0, 406}, {1687, 859}}</string>
+		</array>
+	</dict>
+	<key>ContentViewType</key>
+	<integer>5</integer>
+	<key>DeploymentOptions</key>
+	<dict>
+		<key>Destination</key>
+		<string>localhost.default</string>
+		<key>Path</key>
+		<string>Novotelecom</string>
+		<key>Save</key>
+		<true/>
+		<key>WidgetDeployName</key>
+		<string>Novotelecom Balance</string>
+		<key>enableSimulation</key>
+		<true/>
+		<key>simulatedHost</key>
+		<string>Ilyas-iMac.local</string>
+	</dict>
+	<key>Design time language</key>
+	<string>en.lproj</string>
+	<key>MainSplitViewGeometry</key>
+	<dict>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {244, 1286}}</string>
+			<string>{{245, 0}, {1688, 1286}}</string>
+		</array>
+	</dict>
+	<key>MainWindowFrame</key>
+	<string>53 111 1932 1307 0 0 2560 1418 </string>
+	<key>NavigatorSplitViewGeometry</key>
+	<dict>
+		<key>ContentSplitViewConfig</key>
+		<integer>5</integer>
+		<key>SplitViewConfig</key>
+		<integer>3</integer>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {246, 800}}</string>
+			<string>{{0, 810}, {246, 455}}</string>
+		</array>
+	</dict>
+	<key>Widget</key>
+	<dict>
+		<key>Objects view expanded items</key>
+		<array>
+			<array>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</array>
+		<key>Objects view last selections</key>
+		<array>
+			<array>
+				<integer>5</integer>
+			</array>
+		</array>
+		<key>Visible StackLayout Views</key>
+		<array>
+			<string>back</string>
+		</array>
+	</dict>
+</dict>
+</plist>
