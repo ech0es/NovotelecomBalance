@@ -4,18 +4,16 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>widget.wdgt/main.js:102</key>
-		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:105</key>
+		<key>/System/Library/WidgetResources/AppleClasses/AppleAnimator.js:51</key>
+		<string>-AppleAnimator</string>
+		<key>widget.wdgt/main.js:104</key>
 		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:107</key>
 		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:108</key>
+		<key>widget.wdgt/main.js:109</key>
 		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:132</key>
-		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:133</key>
-		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:110</key>
+		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:134</key>
 		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:135</key>
@@ -28,81 +26,83 @@
 		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:139</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:142</key>
+		<key>widget.wdgt/main.js:140</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:145</key>
+		<key>widget.wdgt/main.js:141</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:158</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:159</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:160</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:161</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:162</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:163</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:164</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:165</key>
-		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:144</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:147</key>
+		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:166</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:169</key>
+		<key>widget.wdgt/main.js:167</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:170</key>
+		<key>widget.wdgt/main.js:169</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:171</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:172</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:173</key>
+		<key>widget.wdgt/main.js:175</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:183</key>
+		<key>widget.wdgt/main.js:176</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:190</key>
+		<key>widget.wdgt/main.js:177</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:203</key>
+		<key>widget.wdgt/main.js:178</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:179</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:187</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:194</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:207</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:213</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:214</key>
+		<key>widget.wdgt/main.js:211</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:217</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:218</key>
-		<string>-</string>
-		<key>widget.wdgt/main.js:219</key>
-		<string>-</string>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:220</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:221</key>
+		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:222</key>
-		<string>-load</string>
+		<string>-</string>
 		<key>widget.wdgt/main.js:223</key>
-		<string>-load</string>
-		<key>widget.wdgt/main.js:224</key>
-		<string>-load</string>
+		<string>-</string>
 		<key>widget.wdgt/main.js:225</key>
 		<string>-load</string>
+		<key>widget.wdgt/main.js:226</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:227</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:228</key>
+		<string>-load</string>
 		<key>widget.wdgt/main.js:230</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:233</key>
 		<string>-showBack</string>
-		<key>widget.wdgt/main.js:247</key>
+		<key>widget.wdgt/main.js:234</key>
+		<string>-showBack</string>
+		<key>widget.wdgt/main.js:254</key>
 		<string>-showFront</string>
-		<key>widget.wdgt/main.js:89</key>
-		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:92</key>
-		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:93</key>
 		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:94</key>
 		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:95</key>
 		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:96</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:97</key>
+		<string>-DashboardViewModel</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{1095, 478}</string>
+	<string>{1636, 840}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -113,12 +113,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {1687, 396}}</string>
-			<string>{{0, 406}, {1687, 859}}</string>
+			<string>{{0, 0}, {1687, 402}}</string>
+			<string>{{0, 412}, {1687, 853}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>5</integer>
+	<integer>0</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -136,6 +136,8 @@
 	</dict>
 	<key>Design time language</key>
 	<string>en.lproj</string>
+	<key>EvaluatorFrame</key>
+	<string>915 517 479 226 0 0 2560 1418 </string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
 		<key>_indexOfCollapsedView</key>
@@ -147,7 +149,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>53 111 1932 1307 0 0 2560 1418 </string>
+	<string>408 111 1932 1307 0 0 2560 1418 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -158,8 +160,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 800}}</string>
-			<string>{{0, 810}, {246, 455}}</string>
+			<string>{{0, 0}, {246, 353}}</string>
+			<string>{{0, 363}, {246, 902}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
@@ -169,24 +171,12 @@
 			<array>
 				<integer>0</integer>
 			</array>
-			<array>
-				<integer>0</integer>
-				<integer>0</integer>
-			</array>
-			<array>
-				<integer>0</integer>
-				<integer>1</integer>
-			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array>
-			<array>
-				<integer>5</integer>
-			</array>
-		</array>
+		<array/>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>back</string>
+			<string>front</string>
 		</array>
 	</dict>
 </dict>

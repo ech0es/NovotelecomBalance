@@ -1,7 +1,8 @@
 apiUrl = "https://api.novotelecom.ru/billing/?method=userInfo&login=%CONTRACT_ID%&passwordHash=%PASSWORD_HASH%";
 errors = ['успех', 'неверный логин или пароль', 'внутреняя ошибка', 'вызываемый метод не найден'];
 updateInterval = 60 * 60 * 1000;    // 1 hour
-passwordMask = "1234567890";
+passwordMask = "";
+
 
 
 function DashboardPreferences() {
@@ -14,23 +15,25 @@ function DashboardPreferences() {
     }
     
     this.getContractId = function () {
-        this._getPreference("contractId");
+        return this._getPreference("contractId");
     }
     
     this.getPassword = this.getPasswordHash = function () {
-        this._getPreference("passwordHash");
+        return this._getPreference("passwordHash");
     }
     
     this.clear = function (contractId) {
-        this.setContractId(null);
-        this.setPassword(null);
+        this.setContractId(undefined);
+        this.setPassword(undefined);
     }
     
     this._getPreference = function(preference) {
+		//alert(preference + " : " + widget.preferenceForKey(widget.identifier + "-" + preference));
         return widget.preferenceForKey(widget.identifier + "-" + preference);
     }
     
     this._setPreference = function(preference, value) {
+		//alert(preference + " = " + value);
         if (value != undefined)
             widget.setPreferenceForKey(value, widget.identifier + "-" + preference);
     }
@@ -88,7 +91,6 @@ function DashboardViewModel() {
     this.notifyModelChanged = function (response) {
         if (response.error != undefined) {
             this.errorMessage(response.error);
-            
         } else {
             this.setUsername(response.username);
             this.setContractId(response.contractId);
@@ -155,14 +157,18 @@ function DashboardController() {
     this.viewModel = new DashboardViewModel();
     
     this.start = function() {
-        if(!this.loadPreferences())
+		var isPrefsLoaded = this.loadPreferences();
+        if(!isPrefsLoaded) {
             showBack();
+        }
             
         this._addEventHandlers();
         this.viewModel.setContractId(this.preferences.getContractId());
-        this.viewModel.setPassword(this.preferences.getPasswordHash());
-        this._api = new NovotelecomApi(this.preferences.getContractId(), this.preferences.getPasswordHash());
+        this.viewModel.setPassword("");//this.preferences.getPasswordHash());
+		var pwd = isPrefsLoaded ? this.preferences.getPasswordHash() : md5(this.viewModel.getPassword());
+        this._api = new NovotelecomApi(this.viewModel.getContractId(), pwd);
         this._api.onModelChanged = this.viewModel.notifyModelChanged.bind(this.viewModel);
+        this._startTimer();
     }
     
     this.applyPreferences = function() {
@@ -178,8 +184,6 @@ function DashboardController() {
     
     this.loadPreferences = function() {
         this._copyPreferences(this.preferences, this.viewModel);
-        alert(this.preferences.getContractId() != undefined);
-        alert(this.preferences.getContractId() != undefined);
         return this.preferences.getContractId() != undefined;
     }
     
@@ -218,11 +222,11 @@ function DashboardController() {
 
 dashboard = new DashboardController();
 
-
 function load()
 {
     dashcode.setupParts();
     dashboard.start();
+    
 }
 
 function showBack(event)
@@ -238,7 +242,10 @@ function showBack(event)
     back.style.display = "block";
 
     if (window.widget) {
-        setTimeout('widget.performTransition();', 0);
+        setTimeout(function () {
+            widget.performTransition();
+        }, 0);
+		setTimeout(function() { document.getElementById("contractIdTextField").focus(); }, 1000);
     }
 }
 
@@ -259,6 +266,7 @@ function showFront(event)
         setTimeout('widget.performTransition();', 0);
     }
 }
+
 
 
 //*****************************************************************************************************

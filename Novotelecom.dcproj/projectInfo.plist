@@ -15,7 +15,7 @@
 			<key>AppIconIncludeFGImage</key>
 			<true/>
 			<key>CYBackwardCompatibleExport</key>
-			<false/>
+			<true/>
 			<key>CYShineVersion</key>
 			<integer>2</integer>
 			<key>MainCSS</key>
@@ -107,5 +107,7 @@
 	</dict>
 	<key>CYProjectFormatVersion</key>
 	<integer>40</integer>
+	<key>IsInCodeGeneratorMode</key>
+	<true/>
 </dict>
 </plist>
