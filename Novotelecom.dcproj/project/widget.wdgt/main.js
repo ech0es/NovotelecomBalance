@@ -26,14 +26,30 @@ function DashboardPreferences() {
         this.setContractId(undefined);
         this.setPassword(undefined);
     }
+	
+	this.setRecentResponse = function (response) {
+		this._setPreference("recentUsername", response.username);
+		this._setPreference("recentContractId", response.contractId);
+		this._setPreference("recentBalance", response.balance);
+		this._setPreference("recentDaysLeft", response.daysLeft);
+		this._setPreference("recentBound", response.bound);
+	}
+	
+	this.getRecentResponse = function () {
+		response = new Object();
+		response.username = this._getPreference("recentUsername");
+		response.contractId = this._getPreference("recentContractId");
+		response.balance = this._getPreference("recentBalance");
+		response.daysLeft = this._getPreference("recentDaysLeft");
+		response.bound = this._getPreference("recentBound");
+        return response;
+    }
     
-    this._getPreference = function(preference) {
-		//alert(preference + " : " + widget.preferenceForKey(widget.identifier + "-" + preference));
+    this._getPreference = function (preference) {
         return widget.preferenceForKey(widget.identifier + "-" + preference);
     }
     
-    this._setPreference = function(preference, value) {
-		//alert(preference + " = " + value);
+    this._setPreference = function (preference, value) {
         if (value != undefined)
             widget.setPreferenceForKey(value, widget.identifier + "-" + preference);
     }
@@ -81,7 +97,6 @@ function DashboardViewModel() {
     this.errorMessage = function(message) {
             alert(message);
             this.setUsername("\nОшибка!");
-            //this.setUsername(response.error);
             this._setTextProperty("contractIdText", "");
             this._setTextProperty("balanceText", "");
             this._setTextProperty("daysLeftText",  message);
@@ -92,6 +107,12 @@ function DashboardViewModel() {
         if (response.error != undefined) {
             this.errorMessage(response.error);
         } else {
+            this.syncFromResponse(response);        
+		}
+    }
+	
+	this.syncFromResponse = function (response) {
+        if (response != undefined && response.error == undefined && response.username != undefined) {
             this.setUsername(response.username);
             this.setContractId(response.contractId);
             this.setBalance(response.balance);
@@ -117,9 +138,13 @@ function DashboardViewModel() {
 
 
 function NovotelecomApi(contractId, passwordHash) {
-
     this.url = apiUrl.replace("%CONTRACT_ID%", contractId).replace("%PASSWORD_HASH%", passwordHash);
-    
+	
+	if (contractId == "") {
+		this.executeRequest = function() {}
+		return;
+	}
+	
     this.executeRequest = function() {
         xmlHttp = new XMLHttpRequest();
         xmlHttp.onreadystatechange = this._parseResponse.bind(this);
@@ -141,6 +166,7 @@ function NovotelecomApi(contractId, passwordHash) {
                     response.balance = xmlHttp.responseXML.getElementsByTagName("balance")[0].firstChild.nodeValue;
                     response.daysLeft = xmlHttp.responseXML.getElementsByTagName("days2BlockStr")[0].firstChild.nodeValue;
                     response.bound = xmlHttp.responseXML.getElementsByTagName("debetBound")[0].firstChild.nodeValue;
+					dashboard.preferences.setRecentResponse(response);
                 }
                 if (typeof this.onModelChanged == "function")
                     this.onModelChanged(response);
@@ -163,6 +189,7 @@ function DashboardController() {
         }
             
         this._addEventHandlers();
+		this.viewModel.syncFromResponse(this.preferences.getRecentResponse());
         this.viewModel.setContractId(this.preferences.getContractId());
         this.viewModel.setPassword("");//this.preferences.getPasswordHash());
 		var pwd = isPrefsLoaded ? this.preferences.getPasswordHash() : md5(this.viewModel.getPassword());

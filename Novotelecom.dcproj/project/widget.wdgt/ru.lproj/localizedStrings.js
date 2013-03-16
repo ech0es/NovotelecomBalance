@@ -8,9 +8,8 @@ var localizedStrings = {
     "bound": "Порог отключения: -100.00 рублей",
     "Contract": "Договор №XXXXX",
     "contractInputCaption": "Номер договора",
-    "Copytight": "© Илья Бураков 2012",
+    "Copytight": "© Илья Бураков 2013",
     "Done": "Done",
-    "Hello, World Goodbye!": "Hello, World!",
     "Hello, World!": "Фамилия Имя Отчество",
     "LoginToAccount": "Вход в личный кабинет",
     "passwordInputCaption": "Пароль",
@@ -18,6 +17,8 @@ var localizedStrings = {
     "Time Left": "Хватит на X дней",
     "usernameInputCaption": "0 рублей"
 };
+
+
 
 
 

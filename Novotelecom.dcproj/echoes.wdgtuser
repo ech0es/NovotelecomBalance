@@ -6,103 +6,127 @@
 	<dict>
 		<key>/System/Library/WidgetResources/AppleClasses/AppleAnimator.js:51</key>
 		<string>-AppleAnimator</string>
-		<key>widget.wdgt/main.js:104</key>
-		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/Parts/core/views/Page.js:501</key>
+		<string>-</string>
 		<key>widget.wdgt/main.js:107</key>
 		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:109</key>
 		<string>-DashboardViewModel</string>
 		<key>widget.wdgt/main.js:110</key>
 		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:134</key>
+		<key>widget.wdgt/main.js:112</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:115</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:116</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:117</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:125</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:128</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:130</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:131</key>
+		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:157</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:135</key>
+		<key>widget.wdgt/main.js:159</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:136</key>
+		<key>widget.wdgt/main.js:160</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:137</key>
+		<key>widget.wdgt/main.js:161</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:138</key>
+		<key>widget.wdgt/main.js:162</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:139</key>
+		<key>widget.wdgt/main.js:163</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:140</key>
+		<key>widget.wdgt/main.js:164</key>
 		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:141</key>
-		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:144</key>
-		<string>-NovotelecomApi</string>
-		<key>widget.wdgt/main.js:147</key>
+		<key>widget.wdgt/main.js:165</key>
 		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:166</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:167</key>
-		<string>-DashboardController</string>
+		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:169</key>
-		<string>-DashboardController</string>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:170</key>
+		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:171</key>
-		<string>-DashboardController</string>
+		<string>-NovotelecomApi</string>
 		<key>widget.wdgt/main.js:172</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:173</key>
+		<string>-NovotelecomApi</string>
+		<key>widget.wdgt/main.js:191</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:175</key>
+		<key>widget.wdgt/main.js:192</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:176</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:177</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:178</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:179</key>
-		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:187</key>
+		<key>widget.wdgt/main.js:193</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:194</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:207</key>
+		<key>widget.wdgt/main.js:196</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:211</key>
+		<key>widget.wdgt/main.js:198</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:217</key>
+		<key>widget.wdgt/main.js:199</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:218</key>
+		<key>widget.wdgt/main.js:202</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:220</key>
+		<key>widget.wdgt/main.js:203</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:204</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:205</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:206</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:214</key>
 		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:221</key>
 		<string>-DashboardController</string>
-		<key>widget.wdgt/main.js:222</key>
-		<string>-</string>
-		<key>widget.wdgt/main.js:223</key>
-		<string>-</string>
-		<key>widget.wdgt/main.js:225</key>
-		<string>-load</string>
-		<key>widget.wdgt/main.js:226</key>
-		<string>-load</string>
-		<key>widget.wdgt/main.js:227</key>
-		<string>-load</string>
-		<key>widget.wdgt/main.js:228</key>
-		<string>-load</string>
-		<key>widget.wdgt/main.js:230</key>
-		<string>-load</string>
-		<key>widget.wdgt/main.js:233</key>
-		<string>-showBack</string>
+		<key>widget.wdgt/main.js:229</key>
+		<string>-DashboardController</string>
 		<key>widget.wdgt/main.js:234</key>
-		<string>-showBack</string>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:238</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:244</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:245</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:247</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:248</key>
+		<string>-DashboardController</string>
+		<key>widget.wdgt/main.js:249</key>
+		<string>-</string>
+		<key>widget.wdgt/main.js:250</key>
+		<string>-</string>
+		<key>widget.wdgt/main.js:252</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:253</key>
+		<string>-load</string>
 		<key>widget.wdgt/main.js:254</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:255</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:257</key>
+		<string>-load</string>
+		<key>widget.wdgt/main.js:260</key>
+		<string>-showBack</string>
+		<key>widget.wdgt/main.js:261</key>
+		<string>-showBack</string>
+		<key>widget.wdgt/main.js:281</key>
 		<string>-showFront</string>
-		<key>widget.wdgt/main.js:92</key>
-		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:94</key>
-		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:95</key>
-		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:96</key>
-		<string>-DashboardViewModel</string>
-		<key>widget.wdgt/main.js:97</key>
-		<string>-DashboardViewModel</string>
+		<key>widget.wdgt/main.js:39</key>
+		<string>-DashboardPreferences</string>
+		<key>widget.wdgt/main.js:40</key>
+		<string>-DashboardPreferences</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{1636, 840}</string>
+	<string>{1607, 840}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -118,7 +142,7 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -127,6 +151,8 @@
 		<string>Novotelecom</string>
 		<key>Save</key>
 		<true/>
+		<key>SavePath</key>
+		<string>/Users/echoes/Desktop</string>
 		<key>WidgetDeployName</key>
 		<string>Novotelecom Balance</string>
 		<key>enableSimulation</key>
@@ -135,9 +161,9 @@
 		<string>Ilyas-iMac.local</string>
 	</dict>
 	<key>Design time language</key>
-	<string>en.lproj</string>
+	<string>ru.lproj</string>
 	<key>EvaluatorFrame</key>
-	<string>915 517 479 226 0 0 2560 1418 </string>
+	<string>2002 679 479 226 0 0 2560 1418 </string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
 		<key>_indexOfCollapsedView</key>
@@ -149,7 +175,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>408 111 1932 1307 0 0 2560 1418 </string>
+	<string>466 100 1932 1307 0 0 2560 1418 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -167,13 +193,13 @@
 	<key>Widget</key>
 	<dict>
 		<key>Objects view expanded items</key>
+		<array/>
+		<key>Objects view last selections</key>
 		<array>
 			<array>
-				<integer>0</integer>
+				<integer>5</integer>
 			</array>
 		</array>
-		<key>Objects view last selections</key>
-		<array/>
 		<key>Visible StackLayout Views</key>
 		<array>
 			<string>front</string>

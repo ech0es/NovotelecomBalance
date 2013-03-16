@@ -15,7 +15,7 @@
 			<key>AppIconIncludeFGImage</key>
 			<true/>
 			<key>CYBackwardCompatibleExport</key>
-			<true/>
+			<false/>
 			<key>CYShineVersion</key>
 			<integer>2</integer>
 			<key>MainCSS</key>
